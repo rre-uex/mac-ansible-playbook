@@ -1,7 +1,7 @@
 ---
 # Dock
-dock_autohide: true
-dock_position: bottom
+dock_autohide: fale
+dock_position: right
 dock_tilesize: 42
 
 # Screenshots

@@ -23,14 +23,14 @@
       tags: [homebrew]
     - role: shell
       tags: [shell]
-    - role: dotfiles
-      when: configure_dotfiles
-      tags: [dotfiles]
-    - role: node
-      tags: [node]
+    # - role: dotfiles
+    #   when: configure_dotfiles
+    #   tags: [dotfiles]
+    # - role: node
+    #   tags: [node]
     - role: mas
       tags: [mas]
     - role: settings
       tags: [settings]
-    - role: projects
-      tags: [projects]
+    # - role: projects
+    #   tags: [projects]

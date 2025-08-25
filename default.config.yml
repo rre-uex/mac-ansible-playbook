@@ -5,110 +5,123 @@
 homebrew_taps: []
 
 homebrew_casks:
-  - 1password
-  - appcleaner
-  - araxis-merge
-  - docker
-  - font-cascadia-code
-  - font-fira-code-nerd-font
-  - font-jetbrains-mono
-  - font-jetbrains-mono-nerd-font
-  - ghostty
-  - google-chrome
-  - iina
-  - keka
-  - microsoft-edge
-  - microsoft-teams
-  - ngrok
-  # - notchnook
-  - p4v
-  - podman-desktop
-  - postman
-  - tableplus
+  # - 1password
+  # - appcleaner
+  # - araxis-merge
+  # - docker
+  # - font-cascadia-code
+  # - font-fira-code-nerd-font
+  # - font-jetbrains-mono
+  # - font-jetbrains-mono-nerd-font
+  # - ghostty
+  # - google-chrome
+  # - iina
+  # - keka
+  # - microsoft-edge
+  # - microsoft-teams
+  # - ngrok
+  # # - notchnook
+  # - p4v
+  # - podman-desktop
+  # - postman
+  # - tableplus
+  # - tower
+  # - transmission
+  # - visual-studio-code
+  # - vlc
+  # - zoom
+  - chatgpt
+  - claude
   - tower
-  - transmission
+  - adobe-acrobat-pro
+  - dbeaver-community
+  - discord
+  - docker
+  - dropbox
+  - firefox
+  - google-chrome
+  - microsoft-teams
+  - miniconda
+  - obs
+  - obsidian
+  - spotify
   - visual-studio-code
-  - vlc
-  - zoom
+  - zotero
 
 homebrew_packages:
-  - act
-  - cosign
-  - diff-so-fancy
-  - fastfetch
-  - fnm
-  - fzf
+  # - act
+  # - cosign
+  # - diff-so-fancy
+  # - fastfetch
+  # - fnm
+  # - fzf
+  # - git
+  # - git-lfs
+  # # - gitlab-runner
+  # - iperf
+  # - mas
+  # # - oh-my-posh
+  # - openssl
+  # - podman
+  # - rclone
+  # - ssh-copy-id
+  # - starship
+  # - stow
+  # - zoxide
+  - curl
+  - gh
+  - gimp
   - git
-  - git-lfs
-  # - gitlab-runner
-  - iperf
+  - gpg
+  - handbrake
   - mas
-  # - oh-my-posh
-  - openssl
-  - podman
-  - rclone
-  - ssh-copy-id
-  - starship
-  - stow
+  - pango
+  - sqlite
   - zoxide
 
 ####################################################################
 ### Role: MAS
 
 mas_packages:
-  - { name: "1Password for Safari", id: 1569813296 }
-  - { name: "Affinity Designer", id: 824171161 }
-  - { name: "Affinity Photo", id: 824183456 }
-  - { name: "Amphetamine", id: 937984704 }
-  - { name: "Bitdefender Virus Scanner", id: 500154009 }
-  - { name: "Craft", id: 1487937127 }
-  # - { name: "Keynote", id: 409183694 }
-  - { name: "Magnet", id: 441258766 }
-  # - { name: "Microsoft Excel", id: 462058435 }
-  # - { name: "Microsoft Word", id: 462054704 }
-  - { name: "Money", id: 1185488696 }
-  - { name: "Numbers", id: 409203825 }
-  - { name: "Pages", id: 409201541 }
-  # - { name: "Pixelmator Pro", id: 1289583905 }
-  # - { name: "Pixelmator", id: 407963104 }
-  - { name: "Playgrounds", id: 1496833156 }
-  - { name: "Reeder", id: 1529448980 }
-  - { name: "Slack", id: 803453959 }
-  # - { name: "The Unarchiver", id: 425424353 }
-  # - { name: "Twitter", id: 1482454543 }
   - { name: "Xcode", id: 497799835 }
+  - { name: "Microsoft Excel", id: 462058435 }
+  - { name: "Microsoft OneDrive", id: 823766827 }
+  - { name: "Microsoft PowerPoint", id: 462062816 }
+  - { name: "Microsoft Word", id: 462054704 }
+  - { name: "OwnCloud", id: 1359583808 }
+  - { name: "Telegram", id: 747648890 }
 
 ####################################################################
 ### Role: Node
 
-nodejs_versions:
-  - 22
-  - 20
+# nodejs_versions:
+#   - 22
+#   - 20
 
-npm_packages:
-  - autocannon
-  - create-nx-workspace
-  - depcheck
-  - eslint
-  - knip
-  - npm-check-updates
-  - nx
-  - prettier
+# npm_packages:
+#   - autocannon
+#   - create-nx-workspace
+#   - depcheck
+#   - eslint
+#   - knip
+#   - npm-check-updates
+#   - nx
+#   - prettier
 
 ####################################################################
 ### Role: dotfiles
 
-configure_dotfiles: true
-dotfiles_repo: https://github.com/gperdomor/dotfiles.git
-dotfiles_repo_version: main
-dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: ~/Developer/dotfiles
+# configure_dotfiles: true
+# dotfiles_repo: https://github.com/gperdomor/dotfiles.git
+# dotfiles_repo_version: main
+# dotfiles_repo_accept_hostkey: true
+# dotfiles_repo_local_destination: ~/Developer/dotfiles
 
 ####################################################################
 ### Role: Projects
 
-projects:
-  - dest: "macOS-ansible"
-    repo_https: "https://github.com/gperdomor/macOS-ansible.git"
-    repo_ssh: "git@github.com:gperdomor/macOS-ansible.git"
-    version: main
+# projects:
+#   - dest: "macOS-ansible"
+#     repo_https: "https://github.com/gperdomor/macOS-ansible.git"
+#     repo_ssh: "git@github.com:gperdomor/macOS-ansible.git"
+#     version: main
